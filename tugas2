@@ -1,0 +1,19 @@
+1. Logical Error, 2. Syntax Error, 3. Runtime Error, 4. Compilation Error, 5. Interfacing Error
+#include <iostream>
+using namespace std;
+
+int main(){
+  bool benar;
+  int x,y;
+  cout << "Gaji udin: "; cin >> x;
+  cout << "Gaji idik: "; cin >> y;
+
+  benar = x < y;
+
+  if (benar == true) {
+    cout << "Gaji udin lebih kecil dari idik"; }else{
+    cout << "Gaji udin lebih besar dari Idin";
+    }
+
+  return 0;
+}
